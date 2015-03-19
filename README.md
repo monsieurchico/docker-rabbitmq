@@ -8,6 +8,8 @@ You must have [Docker](https://www.docker.com/) >= 1.5.
 
 * [latest rabbitmq](http://www.rabbitmq.com/download.html)
 
+### Configuration
+
 ### Ports
 
 You can bind ports :
