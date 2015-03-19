@@ -21,8 +21,8 @@ You can bind ports :
 
 You can mount directories :
 
-* /data/log : log
 * /data/mnesia : data
+* /data/log : log
 
 ## Usage
 
@@ -34,6 +34,8 @@ docker run \
   --name rabbitmq \
   -p 5672:5672 \
   -p 15672:15672 \
-  -v /opt/docker/rabbitmq:/data \
+  -v ~/docker/rabbitmq/data:/data
+  044f8f06d4ba
+
   monsieurchico/rabbitmq
 ```
